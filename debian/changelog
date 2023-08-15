@@ -1,5 +1,36 @@
-template-repository (1.0-1) unstable; urgency=medium
+mdurl (0.1.2-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version.
+  * d/control: Bump Standards-Version to 4.6.1.1 (from 4.6.1; no further
+    changes).
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Emmanuel Arias <eamanu@yaerobi.com>  Mon, 17 Oct 2022 20:23:30 +0000
+
+mdurl (0.1.1-2) unstable; urgency=medium
+
+  * d/control: Version flit in build depends to be according to
+    pyproject.toml (Closes: #1013191).
+    - Patch provided by David Paul <davidpaul@librem.one>.
+  * d/control: Bump Standards-Version to 4.6.1 (from 4.6.0.1; no further
+    changes).
+
+ -- Emmanuel Arias <eamanu@yaerobi.com>  Fri, 12 Aug 2022 13:09:32 -0300
+
+mdurl (0.1.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Emmanuel Arias <eamanu@yaerobi.com>  Wed, 22 Jun 2022 16:28:11 -0300
+
+mdurl (0.1.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source-only upload.
+
+ -- Jeroen Ploemen <jcfp@debian.org>  Mon, 11 Apr 2022 19:34:56 +0000
+
+mdurl (0.1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1008619).
+
+ -- Emmanuel Arias <eamanu@yaerobi.com>  Thu, 07 Apr 2022 10:30:41 +0000
